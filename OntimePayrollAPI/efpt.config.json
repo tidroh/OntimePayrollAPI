@@ -1,0 +1,1046 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "OntimePayrollContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "IrregularWords": null,
+   "MinimumProductVersion": "2.6.1604",
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PluralRules": null,
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "OntimePayrollAPI",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "SingularRules": null,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[ACategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AComments]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AEntry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ALetters]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AllSearch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[APeriod]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ATypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[audittrail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[awards]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BankDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[bio]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Bonus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[btypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[c_table_details]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[c_tables]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Casuals]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyAssetIssue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyAssets]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyLogo]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[contacts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Contracts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[cstructure]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ctypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CUser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[dCaseRating]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[divapp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[divisions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DOB&GenSearch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DOB&QualSearch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DOBOnlySearch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ECategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EditLetter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[edu]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[education]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[empaccts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpDet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[empdivisions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Employee]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Employee_History]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmployeeBanks]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[employment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EmpTerms]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Experience]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[family]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GeneralOpt]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GenOnlySearch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GPosting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GroupCat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GroupModules]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[groups]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[JDescription]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[JProg]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[kin]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LEntry]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Letters]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LetterType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LevelTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LGroups]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LPeriod]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LSCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Modules]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[names]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Nationality]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Needs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[New_AuditTrail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NewNeeds]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NewQualification]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NODateSearch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NoGenderSearch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NoMarkSearch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NoQualifSearch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[NProcess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[OriginalSal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PApproval]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PayrollForms]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[pdCBSCat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[pdCompanyCodesCat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[pdContractTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[pdSalaryChange]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PGroups]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PLevelDescr]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PositionRequirements]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PositionRequirementsValue]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Positions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PostCategories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PostCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Prof]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Qualifications]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QualifOnlySearch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Ref]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[RefSource]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ReInterview]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Religion]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Review]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SalaryIncrease]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[security]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[semp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SLetters]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SReports]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[stypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblAccountLayout]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblAllowance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblAllTasks]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblAssignedRights]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblBank]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblBankBranch]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblBankBranches]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblBankTransfer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblBonus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblBonusDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblCasualEmployeeTransactions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblCasualPaymentCriteria]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblCasualPaymentPeriods]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblCitiBankTransfer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblCompany]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblCompanyBank]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblCompanyPaymentSummary]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblContractTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblControl]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblCooperative]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblCostCenter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblCostcenterRemuneration]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblCurId]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblCurrency]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblDailyTransactions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblDefineCintributionBenefit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblDefineContributionBenefit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblDefinedBenefits]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblDenomination]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeAllowance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeBankNetPay]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeBasicPayArrears]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeBasicSalary]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeBenefit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeBonus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeCasualPaymentCriteria]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeCooperative]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeCostCenter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeDailyValues]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeDefinedBenefits]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeHousing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeInsurance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeLoan]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeMessage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeMotorcars]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeePayrollCode]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeePayrollPeriods]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeePension]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeePeriodDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeRemuneration]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployees]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeTransactions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblEmployeeType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblFormatCostCenters]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblFringeBenefitTax]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblGroupControl]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblGroupModule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblHeadOfDepartment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblHeadOfSubDepartment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblHoliday]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblHomeOwnershipSavingsPlan]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblHousing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblHousingScheme]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblInsuranceCompany]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblJV]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblJVReport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblLoanAdjustments]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblLoanReduction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblLoanSchedule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblLoanTopup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblLoanTransaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblMailSetUp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblModule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblModules]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblMotorCars]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblNHIF]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblNonPayrollTransactions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblNSSF]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblNSSF_SFI]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblOPeningBalances]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblOptions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblOtherOptions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblOverDrawn]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblOverWrite]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblOwnerOccupiedInterest]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPasswordRule]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPAYE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPAYE_Yearly]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPayeTanzania]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPayeUganda]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPaypoint]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPayroll]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPayrollCode]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPayrollCodeRanges]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPayRollGrades]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPayrollTransactions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPayslip]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPension]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPeriodCompanyExpense]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPeriodDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPeriods]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPeriodTransactions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPolicy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPostingFormats]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblPreviousPayeTables]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblProtime]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblRangeBenefits]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblRelief]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblRemuneration]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblSendPayslips]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblServants]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblServiceCharge]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblServiceChargeDeductions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblServiceEmployee]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblServices]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblSettings]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblStatementCodes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblSystem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblSystemErrors]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblSystemPayrollCodes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblTimeSheet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblTransaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblTransactionType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblUnusedRelief]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblUser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblUser1]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblUserGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblUserGroup1]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblUserGroup2]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblUserLog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblVariance]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tblVarTr]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[tempAdd]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tribes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[u_audittrail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[u_logins]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[u_payrollAccess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[u_policysetting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[u_rolerights]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[u_roles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[u_user]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[u_userpwdhists]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[u_users]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Visa]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WfcBudgetPeriods]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[YrsGroup]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false,
+   "UseTypedTvpParameters": true
+}
