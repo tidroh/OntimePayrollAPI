@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("NewQualification")]
 public partial class NewQualification
 {
@@ -17,7 +17,7 @@ public partial class NewQualification
 
     [StringLength(250)]
     public string Qualification { get; set; }
-
+    [Key]
     [Column("myReq")]
     [StringLength(50)]
     public string MyReq { get; set; }

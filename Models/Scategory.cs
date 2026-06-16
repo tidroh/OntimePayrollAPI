@@ -8,10 +8,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("SCategory")]
 public partial class Scategory
 {
+    [Key]   
     [Column("ACode")]
     [StringLength(20)]
     public string Acode { get; set; }

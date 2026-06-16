@@ -8,13 +8,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("QualifOnlySearch")]
 public partial class QualifOnlySearch
 {
     [StringLength(20)]
     public string EmpCode { get; set; }
-
+    [Key]
     [Column("myQualification")]
     [StringLength(200)]
     public string MyQualification { get; set; }

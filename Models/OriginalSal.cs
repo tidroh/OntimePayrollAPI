@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("OriginalSal")]
 public partial class OriginalSal
 {
@@ -32,7 +32,7 @@ public partial class OriginalSal
 
     [Column("OAllow", TypeName = "money")]
     public decimal? Oallow { get; set; }
-
+    [Key]
     [Column("Employee_id")]
     public long? EmployeeId { get; set; }
 }

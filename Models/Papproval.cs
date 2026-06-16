@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("PApproval")]
 public partial class Papproval
 {
@@ -20,7 +20,7 @@ public partial class Papproval
 
     [StringLength(5)]
     public string Approved { get; set; }
-
+    [Key]
     [Column("employee_id")]
     public int? EmployeeId { get; set; }
 }

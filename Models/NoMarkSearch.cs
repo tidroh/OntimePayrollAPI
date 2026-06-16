@@ -8,13 +8,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("NoMarkSearch")]
 public partial class NoMarkSearch
 {
     [StringLength(20)]
     public string EmpCode { get; set; }
-
+    [Key]
     [Column("DOB", TypeName = "smalldatetime")]
     public DateTime? Dob { get; set; }
 

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("NProcess")]
 public partial class Nprocess
 {
@@ -17,7 +17,7 @@ public partial class Nprocess
 
     [StringLength(200)]
     public string Description { get; set; }
-
+    [Key]
     [Column("UGroup")]
     [StringLength(50)]
     public string Ugroup { get; set; }

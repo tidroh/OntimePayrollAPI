@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("NODateSearch")]
 public partial class NodateSearch
 {
@@ -17,7 +17,7 @@ public partial class NodateSearch
 
     [StringLength(50)]
     public string Gender { get; set; }
-
+    [Key]
     [Column("myQualification")]
     [StringLength(200)]
     public string MyQualification { get; set; }

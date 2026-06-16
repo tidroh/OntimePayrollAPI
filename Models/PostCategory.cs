@@ -8,9 +8,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 public partial class PostCategory
 {
+    [Key]
+
     [Column("DCode")]
     [StringLength(20)]
     public string Dcode { get; set; }

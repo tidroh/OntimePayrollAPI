@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("Prof")]
 public partial class Prof
 {
@@ -26,7 +26,7 @@ public partial class Prof
 
     [Column("CTo", TypeName = "smalldatetime")]
     public DateTime? Cto { get; set; }
-
+    [Key]
     [Column("ELevel")]
     [StringLength(200)]
     public string Elevel { get; set; }

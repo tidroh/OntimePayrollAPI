@@ -8,14 +8,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 public partial class NewNeed
 {
     public int Code { get; set; }
 
     [StringLength(200)]
     public string Description { get; set; }
-
+    [Key]
     [Column("NBy")]
     [StringLength(200)]
     public string Nby { get; set; }

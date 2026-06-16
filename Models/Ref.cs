@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("Ref")]
 public partial class Ref
 {
@@ -20,11 +20,11 @@ public partial class Ref
 
     [StringLength(250)]
     public string Names { get; set; }
-
+    [Key]
     [Column("IDNo")]
     [StringLength(200)]
     public string Idno { get; set; }
-
+    
     [Column("MNo")]
     [StringLength(50)]
     public string Mno { get; set; }

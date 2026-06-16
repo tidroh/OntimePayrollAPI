@@ -8,9 +8,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 public partial class PositionRequirement
 {
+    [Key]
     [Column("PositionRequirementsID")]
     public int PositionRequirementsId { get; set; }
 

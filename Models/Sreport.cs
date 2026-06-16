@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("SReports")]
 public partial class Sreport
 {
@@ -25,7 +25,7 @@ public partial class Sreport
 
     [StringLength(200)]
     public string Description { get; set; }
-
+    [Key]
     [Column("ObjectID")]
     [StringLength(200)]
     public string ObjectId { get; set; }
