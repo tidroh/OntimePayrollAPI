@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("LetterType")]
 public partial class LetterType
 {
@@ -28,7 +28,7 @@ public partial class LetterType
 
     [StringLength(5)]
     public string Expire { get; set; }
-
+    [Key]
     [Column("EPeriod")]
     public int? Eperiod { get; set; }
 

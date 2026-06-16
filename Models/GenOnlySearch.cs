@@ -13,6 +13,7 @@ namespace OntimePayrollAPI.Models;
 public partial class GenOnlySearch
 {
     [StringLength(20)]
+    [Key]
     public string EmpCode { get; set; }
 
     [StringLength(50)]

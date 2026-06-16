@@ -8,9 +8,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 public partial class LevelType
 {
+    [Key]
     [Column("LCode")]
     [StringLength(20)]
     public string Lcode { get; set; }

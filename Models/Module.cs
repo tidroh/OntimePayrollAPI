@@ -7,7 +7,6 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
-
 [Keyless]
 public partial class Module
 {

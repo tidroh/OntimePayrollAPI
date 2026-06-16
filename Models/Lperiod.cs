@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("LPeriod")]
 public partial class Lperiod
 {
@@ -20,7 +20,7 @@ public partial class Lperiod
 
     [StringLength(20)]
     public string Code { get; set; }
-
+    [Key]
     [Column(TypeName = "money")]
     public decimal? Marks { get; set; }
 }

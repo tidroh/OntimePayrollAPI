@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("names")]
 public partial class Name
 {
@@ -53,7 +53,7 @@ public partial class Name
     [StringLength(255)]
     [Unicode(false)]
     public string Nhifno { get; set; }
-
+    [Key]
     [Column("IDNumber")]
     [StringLength(255)]
     [Unicode(false)]

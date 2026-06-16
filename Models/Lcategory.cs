@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("LCategory")]
 public partial class Lcategory
 {
@@ -17,7 +17,7 @@ public partial class Lcategory
 
     [StringLength(20)]
     public string EmpCode { get; set; }
-
+    [Key]
     [Column("ACode")]
     [StringLength(20)]
     public string Acode { get; set; }

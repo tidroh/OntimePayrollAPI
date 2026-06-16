@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("GPosting")]
 public partial class Gposting
 {
@@ -22,7 +22,7 @@ public partial class Gposting
     public string OtherNames { get; set; }
 
     public int? MySeq { get; set; }
-
+    [Key]
     [Column("employee_id")]
     public int? EmployeeId { get; set; }
 }

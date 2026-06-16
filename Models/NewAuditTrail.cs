@@ -8,10 +8,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("New_AuditTrail")]
 public partial class NewAuditTrail
 {
+    [Key]
     [Column("UserID")]
     [StringLength(50)]
     [Unicode(false)]

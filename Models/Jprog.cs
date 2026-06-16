@@ -8,10 +8,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("JProg")]
 public partial class Jprog
 {
+    [Key]
     [Column("id")]
     public int Id { get; set; }
 
