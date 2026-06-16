@@ -8,10 +8,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("YrsGroup")]
 public partial class YrsGroup
 {
+    [Key]
     [Column("ID")]
     public long Id { get; set; }
 

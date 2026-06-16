@@ -11,6 +11,7 @@ namespace OntimePayrollAPI.Models;
 [Keyless]
 public partial class Tribe
 {
+    [Key]
     [Column("id")]
     public int Id { get; set; }
 

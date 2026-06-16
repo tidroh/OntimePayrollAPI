@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("tblSendPayslips")]
 public partial class TblSendPayslip
 {
@@ -25,7 +25,7 @@ public partial class TblSendPayslip
     [StringLength(50)]
     [Unicode(false)]
     public string CreatedBy { get; set; }
-
+    [Key]
     [Column(TypeName = "smalldatetime")]
     public DateTime? CreatedOn { get; set; }
 

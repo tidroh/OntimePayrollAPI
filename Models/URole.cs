@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("u_roles")]
 public partial class URole
 {
@@ -26,7 +26,7 @@ public partial class URole
     [StringLength(100)]
     [Unicode(false)]
     public string Rolecode { get; set; }
-
+    [Key]
     [Column("roleid")]
     public int Roleid { get; set; }
 }

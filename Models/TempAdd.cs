@@ -8,10 +8,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("tempAdd")]
 public partial class TempAdd
 {
+    [Key]
     [Column(TypeName = "smalldatetime")]
     public DateTime? Demp { get; set; }
 

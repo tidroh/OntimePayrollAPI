@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("tblPayRollGrades")]
 public partial class TblPayRollGrade
 {
@@ -17,7 +17,7 @@ public partial class TblPayRollGrade
 
     [StringLength(50)]
     public string Description { get; set; }
-
+    [Key]
     [Column(TypeName = "money")]
     public decimal? BasicPayFrom { get; set; }
 

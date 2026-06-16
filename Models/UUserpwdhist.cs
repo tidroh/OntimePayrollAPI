@@ -8,10 +8,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("u_userpwdhists")]
 public partial class UUserpwdhist
 {
+    [Key]
     [Column("usercode")]
     [StringLength(100)]
     [Unicode(false)]

@@ -8,10 +8,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("tblSystemErrors")]
 public partial class TblSystemError
 {
+    [Key]
     [Column("Error_Id")]
     public int ErrorId { get; set; }
 

@@ -8,10 +8,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("u_policysetting")]
 public partial class UPolicysetting
 {
+    [Key]
     [Column("pwdminage")]
     public int? Pwdminage { get; set; }
 

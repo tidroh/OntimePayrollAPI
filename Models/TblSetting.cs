@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("tblSettings")]
 public partial class TblSetting
 {
@@ -21,7 +21,7 @@ public partial class TblSetting
     public string SettingsValue { get; set; }
 
     public int? CoCode { get; set; }
-
+    [Key]
     [Column("YearID")]
     public int? YearId { get; set; }
 
