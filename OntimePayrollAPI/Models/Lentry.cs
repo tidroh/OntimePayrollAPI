@@ -8,10 +8,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("LEntry")]
+
 public partial class Lentry
 {
+    [Key]
     [StringLength(20)]
     public string Period { get; set; }
 
