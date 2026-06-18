@@ -12,6 +12,7 @@ namespace OntimePayrollAPI.Models;
 [Table("tblBankBranches")]
 public partial class TblBankBranch1
 {
+    [Key]
     [StringLength(50)]
     public string BankCode { get; set; }
 

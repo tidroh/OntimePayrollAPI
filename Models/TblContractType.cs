@@ -8,13 +8,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("tblContractTypes")]
 public partial class TblContractType
 {
     public int? ContCount { get; set; }
 
     [StringLength(50)]
+    [Key]
     public string ContCode { get; set; }
 
     [StringLength(50)]
