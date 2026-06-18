@@ -12,6 +12,7 @@ namespace OntimePayrollAPI.Models;
 [Table("tblEmployeeCostCenter")]
 public partial class TblEmployeeCostCenter
 {
+    
     [Column("EMPLOYEECOSTCENTER_ID")]
     public int EmployeecostcenterId { get; set; }
 
@@ -19,7 +20,7 @@ public partial class TblEmployeeCostCenter
     [Column("EMPLOYEE_ID")]
     public int EmployeeId { get; set; }
 
-    [Key]
+    
     [Column("COSTCENTER_ID")]
     public int CostcenterId { get; set; }
 

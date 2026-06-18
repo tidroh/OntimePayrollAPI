@@ -8,10 +8,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("tblMailSetUp")]
 public partial class TblMailSetUp
 {
+    [Key]
     public int MailsetUpId { get; set; }
 
     [StringLength(100)]

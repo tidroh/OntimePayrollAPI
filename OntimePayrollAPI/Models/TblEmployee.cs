@@ -8,12 +8,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("tblEmployees")]
 public partial class TblEmployee
 {
     public int EmployeeId { get; set; }
-
+    [Key]
     [Column("employee_id")]
     public int? EmployeeId1 { get; set; }
 
