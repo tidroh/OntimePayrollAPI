@@ -12,6 +12,7 @@ namespace OntimePayrollAPI.Models;
 [Table("tblBankTransfer")]
 public partial class TblBankTransfer
 {
+    [Key]
     [Column("SFI_HEADER", TypeName = "ntext")]
     public string SfiHeader { get; set; }
 
