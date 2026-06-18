@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("tblContractTypes")]
 public partial class TblContractType
 {
@@ -19,7 +19,7 @@ public partial class TblContractType
 
     [StringLength(50)]
     public string Description { get; set; }
-
+    [Key] 
     [Column(TypeName = "smalldatetime")]
     public DateTime? DateFrom { get; set; }
 

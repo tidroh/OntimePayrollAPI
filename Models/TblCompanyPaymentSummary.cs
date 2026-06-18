@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace OntimePayrollAPI.Models;
 
-[Keyless]
+//[Keyless]
 [Table("tblCompanyPaymentSummary")]
 public partial class TblCompanyPaymentSummary
 {
@@ -24,7 +24,7 @@ public partial class TblCompanyPaymentSummary
 
     [Column(TypeName = "money")]
     public decimal BankTotals { get; set; }
-
+    [Key]
     [Column(TypeName = "money")]
     public decimal BankNumbers { get; set; }
 
