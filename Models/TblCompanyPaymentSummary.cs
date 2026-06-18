@@ -24,7 +24,7 @@ public partial class TblCompanyPaymentSummary
 
     [Column(TypeName = "money")]
     public decimal BankTotals { get; set; }
-
+    [Key]
     [Column(TypeName = "money")]
     public decimal BankNumbers { get; set; }
 
