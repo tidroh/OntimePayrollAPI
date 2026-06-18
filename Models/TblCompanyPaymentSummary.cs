@@ -15,7 +15,7 @@ public partial class TblCompanyPaymentSummary
     public int Id { get; set; }
 
     public int CompanyId { get; set; }
-
+    [Key]
     [Column(TypeName = "money")]
     public decimal CashTotals { get; set; }
 

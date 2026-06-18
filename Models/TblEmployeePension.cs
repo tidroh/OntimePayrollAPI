@@ -12,6 +12,7 @@ namespace OntimePayrollAPI.Models;
 [Table("tblEmployeePension")]
 public partial class TblEmployeePension
 {
+   [Key]
     [Column("EMPPENSION_ID")]
     public int EmppensionId { get; set; }
 
