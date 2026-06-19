@@ -623,9 +623,17 @@ public partial class OntimePayrollContext : DbContext
                 .HasAnnotation("Relational:DefaultConstraintName", "DF_tblDefinedBenefits_ISAMOUNT");
         });
 
-        modelBuilder.Entity<TblEmployee>(entity =>
+        /*modelBuilder.Entity<TblEmployee>(entity =>
         {
             entity.Property(e => e.EmployeeId).ValueGeneratedOnAdd();
+        });*/
+
+        modelBuilder.Entity<TblEmployee>(entity =>
+        {
+            // Tell EF Core that the duplicate EmployeeId property does NOT generate values
+            entity.Property(e => e.EmployeeId).ValueGeneratedNever();
+
+            // Ensure EmployeeId1 is explicitly handled if needed, or leave it to data annotations
         });
 
         modelBuilder.Entity<TblEmployeeBankNetPay>(entity =>
